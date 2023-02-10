@@ -57,23 +57,25 @@ function App() {
           </button>
         </div>
       </div>
-      <p>{message}</p>
+      <p className="text-light-red text-xs italic ml-28 mt-4">{message}</p>
       <div>
-        <img src={illustration} alt="image" />
+        <img className="mt-11" src={illustration} alt="image" />
       </div>
-      <div>
-        <div>
-          <FaFacebookF />
+      <div className="flex flex-row w-20 mt-14 ml-72">
+        <div className="basis-1/3">
+          <FaFacebookF className="text-blue" />
         </div>
-        <div>
-          <FaTwitter />
+        <div className="basis-1/3">
+          <FaTwitter className="text-blue" />
         </div>
-        <div>
-          <FaInstagram />
+        <div className="basis-1/3">
+          <FaInstagram className="text-blue" />
         </div>
       </div>
-      <footer>© Copyright Ping. All rights reserved.</footer>
-      <div>
+      <footer className="text-xs mt-7 text-center text-gray">
+        © Copyright Ping. All rights reserved.
+      </footer>
+      <div className="mt-8">
         <p class="attribution">
           Challenge by{" "}
           <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">
